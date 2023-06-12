@@ -37,6 +37,10 @@
 
 
 
-YouTube Data Harvesting and Warehousing
+**YouTube Data Harvesting and Warehousing**
 
-Youtube is home to vloggers, dance videos, educational content and lots of useful data. Web scraping, the automatic extraction of data from a web page, is the best tool for collecting data from Youtube. Using a Youtube scraper benefits an organization because the data analysis yields valuable insights about video performance, user sentiment, and your channel. This useful data can be combined with data extracted from social media sites in order to be more comprehensive. With our team at Scraping Robot, you can build a custom scraping project to fulfill all your unique data needs.
+***Youtube is home to vloggers, dance videos, educational content and lots of useful data. Web scraping, the automatic extraction of data from a web page, is the best tool for collecting data from Youtube. Using a Youtube scraper benefits an organization because the data analysis yields valuable insights about video performance, user sentiment, and your channel. This useful data can be combined with data extracted from social media sites in order to be more comprehensive. With our team at Scraping Robot, you can build a custom scraping project to fulfill all your unique data needs.***
+
+**Benefits of Using a Youtube Scraper**
+
+***Using a Youtube scraper makes it easy, fast, and cheap to extract useful data from Youtube. Whether you’re a small business owner or part of the data department at a large organization, you can experience many benefits from scraping Youtube.***
