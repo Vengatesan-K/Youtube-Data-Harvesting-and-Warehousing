@@ -1,12 +1,12 @@
 # Capstone-Project---Guvi-
 <h1 align="center">Hi 👋, I'm Vengatesan K</h1>
 <h3 align="center">Aspiring Data scientist</h3>
-<img align="right" alt="Coding" width="300" src="https://media4.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif?cid=ecf05e478dcaji49ebe1w4lgbevzkabmg79kgaxkwsreb8tw&ep=v1_gifs_search&rid=giphy.gif&ct=g">
+<img align="center" alt="Coding" width="300" src="https://media4.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif?cid=ecf05e478dcaji49ebe1w4lgbevzkabmg79kgaxkwsreb8tw&ep=v1_gifs_search&rid=giphy.gif&ct=g">
 <img align="right" alt="Coding" width="300" src="https://cdn.dribbble.com/users/634508/screenshots/2172083/media/1cc2d961f9b95d233963a7868214ca93.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vengatesan2997&label=Profile%20views&color=0e75b6&style=flat" alt="vengatesan2997" /> </p>
 
-<p align="left"> <a href="https://twitter.com/vengatesan@2997" target="blank"><img src="https://img.shields.io/twitter/follow/vengatesan@2997?logo=twitter&style=for-the-badge" alt="vengatesan@2997" /></a> </p>
+<p align="left"> <a href="https://twitter.com/vengatesan2997" target="blank"><img src="https://img.shields.io/twitter/follow/vengatesan@2997?logo=twitter&style=for-the-badge" alt="vengatesan@2997" /></a> </p>
 
 - 🔭 I’m currently working on [YouTube Data Harvesting and Warehousing](https://github.com/Vengatesan2997/Capstone-Project---Guvi-)
 
