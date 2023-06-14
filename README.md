@@ -1,8 +1,6 @@
 # Capstone-Project---Guvi-
 <h1 align="center">Hi 👋, I'm Vengatesan K</h1>
 <h3 align="center">Aspiring Data scientist</h3>
-<img align="right" alt="Coding" width="300" src="https://media4.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif?cid=ecf05e478dcaji49ebe1w4lgbevzkabmg79kgaxkwsreb8tw&ep=v1_gifs_search&rid=giphy.gif&ct=g">
-<img align="right" alt="Coding" width="300" src="https://cdn.dribbble.com/users/634508/screenshots/2172083/media/1cc2d961f9b95d233963a7868214ca93.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vengatesan2997&label=Profile%20views&color=0e75b6&style=flat" alt="vengatesan2997" /> </p>
 
@@ -15,6 +13,8 @@
 - 💬 Ask me about **Python SQL MongoDB and Machine Learning**
 
 - 📫 How to reach me **kannanvenkatesh772@gmail.com**
+<img align="right" alt="Coding" width="300" src="https://media4.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif?cid=ecf05e478dcaji49ebe1w4lgbevzkabmg79kgaxkwsreb8tw&ep=v1_gifs_search&rid=giphy.gif&ct=g">
+<img align="right" alt="Coding" width="300" src="https://cdn.dribbble.com/users/634508/screenshots/2172083/media/1cc2d961f9b95d233963a7868214ca93.gif">
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
