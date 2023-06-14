@@ -6,7 +6,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vengatesan2997&label=Profile%20views&color=0e75b6&style=flat" alt="vengatesan2997" /> </p>
 
-<p align="left"> <a href="https://twitter.com/vengatesan2997" target="blank"><img src="https://img.shields.io/twitter/follow/vengatesan@2997?logo=twitter&style=for-the-badge" alt="vengatesan@2997" /></a> </p>
+
 
 - 🔭 I’m currently working on [YouTube Data Harvesting and Warehousing](https://github.com/Vengatesan2997/Capstone-Project---Guvi-)
 
@@ -18,7 +18,6 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/vengatesan@2997" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="vengatesan@2997" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/vengatesan2612" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="vengatesan2612" height="30" width="40" /></a>
 </p>
 
