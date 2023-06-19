@@ -1,6 +1,6 @@
 # YouTube Data Harvesting and Warehousing
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nirmal-data-scientist-youtube-data-harvesting.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://github.com/Vengatesan2997/Youtube-Data-Harvesting-and-Warehousing)
 
 To create a Streamlit application that allows users to access and analyze data from multiple YouTube channels. 
 
