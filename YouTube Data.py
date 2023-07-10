@@ -4,7 +4,6 @@ import numpy as np
 import requests
 from googleapiclient.discovery import build
 import isodate
-import seaborn as sns
 from streamlit_option_menu import option_menu
 import pymongo
 import psycopg2
@@ -43,8 +42,6 @@ def api_connect():
     
     return youtube
 
-
-
 def channel_details(youtube, channel_id):
     request = youtube.channels().list(
         part='snippet,contentDetails,statistics',
@@ -64,7 +61,6 @@ def channel_details(youtube, channel_id):
                    }
             channel_info.update(data)
             return channel_info
-
 
 def get_video_ids(youtube,channel_id):
     video_id = []
@@ -87,8 +83,6 @@ def get_video_ids(youtube,channel_id):
         if next_page_token is None:
             break
     return video_id
-
-
 
 #print(video_ids)
 
@@ -120,8 +114,6 @@ def video_details(youtube,video_ids):
                                )
             video_info.append(video_detail)
     return video_info
-
-
 
 def comment_details(youtube,video_ids):
     video_ids = get_video_ids(youtube,channel_id)
@@ -284,8 +276,7 @@ elif opt == "Upload":
             preview_file = dict(channel_info=channel_stats, video_info = video_stats,comments_info=comment_stats)
             st.success("🖱️Scroll down to preview the json file")
             st.write(preview_file)
-            
-   
+               
         if page == "Upload":
             channel_stats = channel_details(api_connect(), channel_id)
             video_ids = get_video_ids(api_connect(),channel_id)
@@ -335,8 +326,7 @@ elif opt == "Migrate":
                 value["Description"])
             cur.execute(a, result_1)
         conn.commit()
-        
-        
+                
         video_ids = get_video_ids(api_connect(),channel_id)
         video_dict = video_details(api_connect(),video_ids)
         video_df = pd.DataFrame(video_dict)
@@ -370,8 +360,7 @@ elif opt == "Migrate":
                 value_2["Dislikes"], value_2["Favorite_count"], value_2["Comments"], value_2["Published_date"])
             cur.execute(c, result_3)
         conn.commit()
-        
-         
+                 
         comments_dict = comment_details(api_connect(),video_ids)
         comments_df = pd.DataFrame(comments_dict)
         comments_df['comment_publishedAt'] = pd.to_datetime(comments_df['comment_publishedAt']).dt.date
@@ -566,8 +555,7 @@ else:
         tab1,tab2 = st.tabs(["Table","Chart"])
         with tab1:
          st.dataframe(df)
-        
-       
+               
         tokens = (df['Channels published video in the year 2022'])
         comment_words =''
     # Converts each token into lowercase
@@ -586,7 +574,6 @@ else:
          plt.imshow(wordcloud,interpolation='spline36')
          st.pyplot(plt,use_container_width=False)
         
-
     if question_selected == "What is the average duration of all videos in each channel, and what are their " \
                             "corresponding channel names?":
         cur.execute("SELECT CHANNEL.CHANNEL_NAME, AVG(VIDEO.VIDEO_DURATION)::INT AS AVERAGE_DURATION FROM VIDEO JOIN "
