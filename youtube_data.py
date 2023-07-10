@@ -1,5 +1,5 @@
 #------------------------------------------------------------Import packages and libraries--------------------------------------------------------#
-$ pip freeze > requirements.txt
+pip freeze > requirements.txt
 pip install -r requirements.txt
 pip install --upgrade -r requirements.txt
 import pandas as pd
