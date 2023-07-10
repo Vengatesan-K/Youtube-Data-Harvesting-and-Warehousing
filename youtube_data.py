@@ -1,6 +1,4 @@
 #------------------------------------------------------------Import packages and libraries--------------------------------------------------------#
-pip install -r requirements.txt
-pip install --upgrade -r requirements.txt
 import pandas as pd
 import numpy as np
 import requests
