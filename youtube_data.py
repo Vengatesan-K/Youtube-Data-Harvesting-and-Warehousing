@@ -2,10 +2,8 @@
 import pandas as pd
 import numpy as np
 import requests
-import seaborn as sns
 from googleapiclient.discovery import build
 import isodate
-import seaborn as sns
 from streamlit_option_menu import option_menu
 import pymongo
 import psycopg2
