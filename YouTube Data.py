@@ -2,7 +2,6 @@
 import pandas as pd
 import numpy as np
 import requests
-import seaborn as sns
 from googleapiclient.discovery import build
 import isodate
 import seaborn as sns
@@ -16,7 +15,6 @@ import matplotlib.pyplot as plt
 from streamlit_lottie import st_lottie
 import json
 import plotly.express as px
-import pymongo
 from pymongo import mongo_client
 from requests import HTTPError
 import streamlit as st
