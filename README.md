@@ -2,7 +2,10 @@
 
  <img src="https://wallsdesk.com/wp-content/uploads/2016/06/YouTube-logo-png.png" width="10%" height="30%">
 
-Streamlit application that allows users to access and analyze data from multiple YouTube channels.
+```
+Streamlit application that allows users to access and analyze data from multiple YouTube channels..
+```
+
 
  ## features :
 - [x] Able to input a YouTube channel ID and retrieve all the relevant data (Channel name, subscribers, total video count, playlist ID, video ID, likes,dislikes, comments of each video) using Google API.
@@ -26,7 +29,7 @@ Streamlit application that allows users to access and analyze data from multiple
 | Pandas | For EDA processes. |
 | Plotly | Graphing library makes interactive, publication-quality graphs. |
 
-### Approach :
+## Approach :
 
 ```mermaid
 graph TD;
@@ -37,7 +40,7 @@ graph TD;
 ```
 
 ## Conclusion
-This project aims to develop a user-friendly Streamlit application that utilizes the
+> This project aims to develop a user-friendly Streamlit application that utilizes the
 Google API to extract information on a YouTube channel, stores it in a MongoDB
 database, migrates it to a SQL data warehouse, and enables users to search for
 channel details and join tables to view data in the Streamlit app.
