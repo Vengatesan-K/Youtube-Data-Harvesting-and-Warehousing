@@ -52,8 +52,6 @@ uritemplate==4.1.1
 urllib3==1.26.16
 wcwidth==0.2.6
 pymongo==4.4.0
-psycopg2-binary==2.9.6
-psycopg2==2.9.6
 streamlit_extras==0.2.7
 wordcloud==1.9.2
 matplotlib==3.7.2
@@ -61,3 +59,4 @@ streamlit_lottie==0.0.5
 json==0.1.0
 plotly.express==0.4.1
 streamlit==1.24.1
+PyPI==2.1
