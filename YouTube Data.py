@@ -102,8 +102,8 @@ def video_details(youtube,video_ids):
                                 Tags = video['snippet'].get('tags'),
                                 Thumbnail = video['snippet']['thumbnails']['default']['url'],
                                 Description = video['snippet']['description'],
-                                Published_date = video['snippet']['publishedAt'].replace('T', ' ').replace('Z', ''),
-                                Duration = isodate.parse_duration(video['contentDetails']['duration']).total_seconds(),
+                                Published_date = video['snippet']['publishedAt'],
+                                Duration = isodate.parse_duration(video['contentDetails'],
                                 Views = video['statistics'].get("viewCount", 0),
                                 Likes = video['statistics'].get('likeCount'),
                                 Comments = video['statistics'].get('commentCount'),
@@ -134,7 +134,7 @@ def comment_details(youtube,video_ids):
                 comment_author = comment['snippet']['topLevelComment']['snippet']['authorDisplayName']
                 comment_like_count=comment['snippet']['topLevelComment']['snippet']['likeCount']
                 comment_id = comment['snippet']['topLevelComment']['id']
-                comment_publishedAt=comment['snippet']['topLevelComment']['snippet']['publishedAt'].replace('T', ' ').replace('Z', '')
+                comment_publishedAt=comment['snippet']['topLevelComment']['snippet']['publishedAt']
                 try:
                     comment_replies = comment['replies']['comments']
                     Reply_dict = {}
@@ -143,7 +143,7 @@ def comment_details(youtube,video_ids):
                         Comment_Reply_author = comment['replies']['comments'][j]['snippet']['authorDisplayName']
                         Comment_Reply_like_count=comment['replies']['comments'][j]['snippet']['likeCount']
                         Comment_Reply_text = comment['replies']['comments'][j]['snippet']['textOriginal']
-                        Comment_Reply_publishedAt=comment['replies']['comments'][j]['snippet']['publishedAt'].replace('T', ' ').replace('Z', '')
+                        Comment_Reply_publishedAt=comment['replies']['comments'][j]['snippet']['publishedAt']
                         Reply_dict.update({'comment_Id':Comment_Reply_id,'comment': Comment_Reply_text,
                                            'comment_author':Comment_Reply_author,
                                            'comment_like_count':Comment_Reply_like_count,
