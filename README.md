@@ -7,7 +7,7 @@ Streamlit application that allows users to access and analyze data from multiple
 ```
 
 
- ## features :
+ ## Features :
 - [x] Able to input a YouTube channel ID and retrieve all the relevant data (Channel name, subscribers, total video count, playlist ID, video ID, likes,dislikes, comments of each video) using Google API.
   
 - [x] Option avaialable to store the data in a MongoDB database as a data lake.
