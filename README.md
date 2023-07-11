@@ -3,7 +3,7 @@
  <img src="https://wallsdesk.com/wp-content/uploads/2016/06/YouTube-logo-png.png" width="10%" height="30%">
 
 ```
-Streamlit application that allows users to access and analyze data from multiple YouTube channels..
+Streamlit application that allows users to access and analyze data from multiple YouTube channels.
 ```
 
 
