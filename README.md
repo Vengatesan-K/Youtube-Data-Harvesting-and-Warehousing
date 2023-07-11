@@ -19,7 +19,7 @@ Streamlit application that allows users to access and analyze data from multiple
 
  - [x] Able to search and retrieve data from the SQL database using different search options, including joining tables to get channel details.
 
-## Tools and libraries used this project :
+## Tools and libraries used for this project :
 
 | Tool/Lib | Purpose |
 | --- | --- |
