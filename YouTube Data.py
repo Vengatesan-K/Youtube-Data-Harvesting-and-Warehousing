@@ -56,7 +56,7 @@ def channel_details(youtube, channel_id):
                     'Total_videos':item['statistics']['videoCount'],
                     'Playlist_id':item['contentDetails']['relatedPlaylists']['uploads'],
                     'Description':item['snippet']['description'],
-                    'publishedAt':item['snippet']['publishedAt'].replace('T', ' ').replace('Z', ''),
+                    'publishedAt':item['snippet']['publishedAt'],
                     'Country':item['snippet'].get('country')
                    }
             channel_info.update(data)
