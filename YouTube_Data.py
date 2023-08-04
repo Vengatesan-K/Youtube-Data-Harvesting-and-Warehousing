@@ -103,7 +103,7 @@ def video_details(youtube,video_ids):
                                 Thumbnail = video['snippet']['thumbnails']['default']['url'],
                                 Description = video['snippet']['description'],
                                 Published_date = video['snippet']['publishedAt'],
-                                Duration = isodate.parse_duration(video['contentDetails'],
+                                Duration = isodate.parse_duration(video['contentDetails']['duration']),
                                 Views = video['statistics'].get("viewCount", 0),
                                 Likes = video['statistics'].get('likeCount'),
                                 Comments = video['statistics'].get('commentCount'),
@@ -113,7 +113,7 @@ def video_details(youtube,video_ids):
                                 Caption_status = video['contentDetails']['caption']
                                )
                                 video_info.append(video_detail)
-return video_info
+            return video_info
 
 def comment_details(youtube,video_ids):
     video_ids = get_video_ids(youtube,channel_id)
