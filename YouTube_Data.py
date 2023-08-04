@@ -112,7 +112,7 @@ def video_details(youtube,video_ids):
                                 Definition = video['contentDetails']['definition'],
                                 Caption_status = video['contentDetails']['caption']
                                )
-            video_info.append(video_detail)
+                                video_info.append(video_detail)
 return video_info
 
 def comment_details(youtube,video_ids):
