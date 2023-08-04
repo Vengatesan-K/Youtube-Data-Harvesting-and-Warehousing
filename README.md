@@ -39,6 +39,37 @@ graph TD;
     MongoDB-->Streamlit;
     PostgresSQL-->Streamlit;
 ```
+## User Interface 
+__Home Page__
+
+> About this Application and benefits of Youtube data harvesting
+
+![Home](https://github.com/Vengatesan-K/Youtube-Data-Harvesting-and-Warehousing/assets/128688827/601df900-1b3e-437a-83da-d53e399b7c75)
+
+__Upload Page__
+
+> Upload Youtube channel's Identity Document to retrieve datas and store it in a MongoDB database.
+
+![Upload](https://github.com/Vengatesan-K/Youtube-Data-Harvesting-and-Warehousing/assets/128688827/74d186dd-ca4d-4279-95c4-870c2f670393)
+
+__Migrate Page__
+
+> Insert the retrieved datas into SQL Data Warehouse 
+
+![Migrate Page](https://github.com/Vengatesan-K/Youtube-Data-Harvesting-and-Warehousing/assets/128688827/9b117882-4fed-4b96-8f76-8b27e9663d80)
+
+__Analysis Page__
+
+> Select the Questions to insights of youtube channels
+
+![Screenshot 2023-08-04 214559](https://github.com/Vengatesan-K/Youtube-Data-Harvesting-and-Warehousing/assets/128688827/09ad87f9-8807-480b-9566-c12275987b8f)
+
+__Visualization__
+
+> Visualization with Plotly charts and graphs to help users analyze the data.
+
+![Web_Photo_Editor](https://github.com/Vengatesan-K/Youtube-Data-Harvesting-and-Warehousing/assets/128688827/dde37116-6472-4c26-b2bf-7b2933aa47e6)
+
 
 ## Conclusion
 > This project aims to develop a user-friendly Streamlit application that utilizes the
