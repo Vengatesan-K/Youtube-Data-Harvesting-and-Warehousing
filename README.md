@@ -73,7 +73,9 @@ __Visualization__
 
 ![Untitled Project](https://github.com/Vengatesan-K/Youtube-Data-Harvesting-and-Warehousing/assets/128688827/134583d9-4f79-4a25-9ee2-e7472aa74215)
 
+### Watch video
 
+[How to analyse the youtube channels | Streamlit ](https://www.linkedin.com/posts/vengatesan2612_youtubedatascrapping-dataanalysis-youtubeinsights-activity-7083826295435898880--1lW?utm_source=share&utm_medium=member_desktop)
 
 
 ## Conclusion
