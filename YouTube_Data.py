@@ -26,7 +26,10 @@ client = pymongo.MongoClient("mongodb+srv://Vengat2612:Vengat2612@cluster0.ntbf1
 mydb = client["youtube_project"]
 channel_list = mydb.list_collection_names()
 
-conn = psycopg2.connect(host="localhost", user="postgres", password="vengatesh", port=5432, database="youtube")
+@st.cache_resource
+def init_connection():
+    return psycopg2.connect(**st.secrets["postgres"])
+conn = init_connection()
 cur = conn.cursor()
 
 #--------------------------------------------------------------Retrieve data from Youtube api-----------------------------------------------------#
