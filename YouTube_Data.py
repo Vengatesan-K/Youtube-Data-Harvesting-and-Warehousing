@@ -22,11 +22,11 @@ import base64
 
 #--------------------------------------------------------------NoSQL & SQL connection-------------------------------------------------------------#
 
-client = pymongo.MongoClient("mongodb+srv://Username:password@cluster0.ntbf1lc.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://Vengat2612:Vengat2612@cluster0.ntbf1lc.mongodb.net/?retryWrites=true&w=majority")
 mydb = client["youtube_project"]
 channel_list = mydb.list_collection_names()
 
-conn = psycopg2.connect(host="localhost", user="username", password="password", port=port, database="database")
+conn = psycopg2.connect(host="localhost", user="postgres", password="vengatesh", port=5432, database="youtube")
 cur = conn.cursor()
 
 #--------------------------------------------------------------Retrieve data from Youtube api-----------------------------------------------------#
