@@ -11,4 +11,4 @@ streamlit_lottie==0.0.5
 plotly.express==0.4.1
 streamlit==1.24.1
 PyPI==2.1
-psycopg2==2.9.6
+psycopg2-binary==2.9.7
