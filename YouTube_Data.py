@@ -22,7 +22,7 @@ import base64
 
 #--------------------------------------------------------------NoSQL & SQL connection-------------------------------------------------------------#
 
-client = pymongo.MongoClient("mongodb+srv://Vengat2612:Vengat2612@cluster0.ntbf1lc.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://########:######@cluster0.ntbf1lc.mongodb.net/?retryWrites=true&w=majority")
 mydb = client["youtube_project"]
 channel_list = mydb.list_collection_names()
 
