@@ -34,7 +34,7 @@ cur = conn.cursor()
 #--------------------------------------------------------------Retrieve data from Youtube api-----------------------------------------------------#
 
 def api_connect():
-    api_key =  "AIzaSyAgW7lZYJQ22BRh7pyJvY1ZiJwHMNnJvOo"
+    api_key =  "####################################" #collect from api
 
     api_service_name = "youtube"
     
