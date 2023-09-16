@@ -288,7 +288,7 @@ elif opt == "Upload":
             channel_name = file_upload["channel_info"]["Channel_name"]
             col = mydb[channel_name]
             col.insert_one(file_upload)
-            st.success("Successfully Uploaded to 🍃Atlas Datalake[🛢](https://cloud.mongodb.com/v2/6474913853b9fd0dd4fe8718#/metrics/replicaSet/6474923ad341901bd7b280ae/explorer/Venkat/Youtube/find) ")
+            st.success("Successfully Uploaded to 🍃Atlas Datalake[🛢](https://cloud.mongodb.com/################/metrics/replicaSet/6474923ad341901bd7b280ae/explorer/Venkat/Youtube/find) ")
     with col2:
         st_lottie("https://assets6.lottiefiles.com/packages/lf20_j9L70r6Tum.json")
 
